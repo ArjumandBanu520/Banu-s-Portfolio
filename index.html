@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+</head>
+<body>
+  <!-- Space Themed Background Video -->
+  <video id="bg-video" autoplay muted loop playsinline poster="" preload="auto">
+    <source src="4K_13.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <!-- Overlay Content -->
+  <div class="overlay">
+<header>
+  <a href="#home" class="logo">
+    <img src="B.jpg"  alt="Logo" />
+  </a>
+  <span class="navbar-title">SHAIK ARJUMAND BANU</span>
+  <nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#footer" id="contact-nav">Contact</a>
+  </nav>
+</header>
+
+
+    <main id="home">
+      <div class="avatar-container">
+        <img src="WebPhoto.jpg" alt=" Profile Photo" class="avatar-img" />
+      </div>
+      <h3 class = "highlighted">About Me</h3>
+      <p class="highlighted">Full Stack Web Developer</p>
+      <p class="about-desc">I am a passionate and dedicated full stack web developer with experience in building scalable web applications using Java, SQL, and modern frontend technologies. I enjoy solving problems, learning new skills, and working on innovative projects that make a difference.</p>
+      &nbsp;<p class="about-desc">I’ve also been diving into Python, Pandas, and Power BI to play around with data and create cool dashboards.
+
+        I love learning new things and sharing my progress along the way. Whether I’m building a new project, fixing bugs, or analyzing something interesting, I’m always up for a challenge. I'm currently looking for internships, freelance work, or junior roles where I can keep learning and create meaningful work with great people. Let’s build something awesome together!</p>
+      <a href="Resume _Banu(Java).pdf"class = "resume-btn" target="_blank">View Resume</a>
+    </main>
+   <section id="skills">
+  <h2 class="skills-heading">Technical Skills</h2>
+  <div class="skills-container">
+    <div class="skill-box">
+      <i class="fas fa-server"></i>
+      <h4>Backend</h4>
+      <p>Java, JDBC, JEE, JSP, Servlets</p>
+    </div>
+    <div class="skill-box">
+      <i class="fas fa-code"></i>
+      <h4>Frontend</h4>
+      <p>HTML, CSS </p>
+    </div>
+    <div class="skill-box">
+      <i class="fas fa-database"></i>
+      <h4>Database</h4>
+      <p>MySQL, SQL</p>
+    </div>
+    <div class="skill-box">
+      <i class="fas fa-robot"></i>
+      <h4>Machine Learning</h4>
+      <p>Data Science</p>
+    </div>
+    <div class="skill-box">
+      <i class="fas fa-chart-bar"></i>
+      <h4>Other Tools</h4>
+      <p>Power BI, Tableau , Basics of Gen-AI</p>
+    </div>
+    <div class="skill-box">
+      <i class="fab fa-git-alt"></i>
+      <h4>Version Control</h4>
+      <p>Git, GitHub</p>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+  <div class="projects-section-box">
+    <h2 class="projects-heading highlighted">Projects</h2>
+    <div class="projects-group">
+      <h3 class="projects-subheading">Academic Project</h3>
+      <div class="projects-container">
+        <div class="project-card animated-card">
+          <img src="handgesture.jpeg" alt="Project Image" class="academic-project-img" />
+          <h3 class = "highlighted">Hand Gesture Classification using Convolutional Neural Network and OpenCV. </h3>
+          <p>Developed a hand gesture classification system using Convolutional Neural Network and OpenCV. The system uses a pre-trained model to identify the gesture and predict the action in the form of text and audio and display the result on the screen.</p>
+          <a href="https://github.com/ArjumandBanu520/HandGesture-Classification.git" class="project-link">View Project</a>
+        </div>
+      </div>
+      <h3 class="projects-subheading">Personal Projects</h3>
+      <div class="projects-container">
+        <div class="project-card animated-card">
+          <img src="iris.jpeg" alt="Project Image" class="personal-project-img" />
+          <h3 class = "highlighted">Iris Flower Classification</h3>
+          <p>Predicts the species of the iris flower based on the features.</p>
+          <a href="https://github.com/ArjumandBanu520/OIBSIP/blob/main/Iris%20Classification.ipynb" class="project-link">View Project</a>
+        </div>
+        <div class="project-card animated-card">
+          <img src="unemployment.jpeg" alt="Project Image" class="personal-project-img" />
+          <h3 class = "highlighted">Unemployment Analysis using Python</h3>
+          <p>Analyzes the unemployment rate of the country using Python.</p>
+          <a href="https://github.com/ArjumandBanu520/OIBSIP/blob/main/Unemployment.ipynb" class="project-link">View Project</a>
+        </div>
+        <div class="project-card animated-card">
+          <img src="carlogo.jpeg" alt="Project Image" class="personal-project-img" />
+          <h3 class = "highlighted">Car Price Prediction</h3>
+          <p>Predicts the price of the car based on the features.</p>
+          <a href="https://github.com/ArjumandBanu520/OIBSIP/blob/main/CarPrice.ipynb" class="project-link">View Project</a>
+        </div>
+        <div class="project-card animated-card">
+          <img src="email.jpeg" alt="Project Image" class="personal-project-img" />
+          <h3 class = "highlighted">Email Spam Detection</h3>
+          <p>Detects the spam email using Python.</p>
+          <a href="https://github.com/ArjumandBanu520/OIBSIP/blob/main/Email%20Spam%20Detection.ipynb" class="project-link">View Project</a>
+        </div>
+        <div class="project-card animated-card">
+          <img src="saleslogo.jpeg" alt="Project Image" class="personal-project-img" />
+          <h3 class = "highlighted">Sales Prediction using Python</h3>
+          <p>Predicts the sales of the product based on the features.</p>
+          <a href="https://github.com/ArjumandBanu520/OIBSIP/blob/main/Sales%20Prediction.ipynb" class="project-link">View Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience">
+  <h2 class="experience-heading highlighted">Experience</h2><br><br>
+  <div class="experience-container">
+    <div class="experience-box animated-box">
+      <h3 class = "highlighted">Tap Academy</h3>
+      <p>Full Stack Developer<br>Jan 2025 - Present<br>Working  on scalable web applications using Java, SQL and Frontend technologies.</p>
+    </div>
+    <div class="experience-box animated-box">
+      <h3 class = "highlighted">Oasis InfoByte</h3>
+      <p>Data Science Intern<br>Oct 2024 - Nov 2024<br>Developed  Machine learning models using Support Vector Machines.</p>
+    </div>
+    <div class="experience-box animated-box">
+      <h3 class = "highlighted">Naresh Technologies and Consultancy Services</h3>
+      <p>Data Science Developer Intern<br>Jun 2024 - July 2024<br>Developed  Machine learning models using some of the popular libraries like Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn, etc.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Form Section -->
+<section id="contact-form-section" style="display:none;">
+  <h2 class="contact-form-heading highlighted">Connect</h2>
+  <form class="contact-form" action="https://formspree.io/f/yourFormID" method="POST">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="description">Description</label>
+    <textarea id="description" name="description" rows="4" required></textarea>
+
+    <button type="submit" class="submit-btn">Submit</button>
+  </form>
+</section>
+
+<footer class="footer" id="footer">
+  <div class="footer-left">
+    <p><strong>Email:</strong> shaikarjumandbanu04@gmail.com</p>
+    <p><strong>Phone:</strong> +91-7997608009</p>
+    <p><strong>Location:</strong> India</p>
+    <p class="copyright">© 2025 Shaik Arjumand Banu. All rights reserved.</p>
+  </div>
+  <div class="footer-right">
+    <a href="#contact" class="connect-btn" id="connect-btn">Connect with Me</a>
+    <div class="social-icons">
+      <a href="https://github.com/ArjumandBanu520" target="_blank" class="github-btn"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/shaik-arjumand-banu" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/arjumand_04_?igsh=Ymo5a2dxMzdtcGM5" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+  </div>
+  <script>
+// Show contact form on Connect with Me button click
+const connectBtn = document.querySelector('.connect-btn');
+const contactFormSection = document.getElementById('contact-form-section');
+if (connectBtn && contactFormSection) {
+  connectBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    contactFormSection.style.display = 'flex';
+    contactFormSection.scrollIntoView({ behavior: 'smooth' });
+  });
+}
+
+// Highlight section when navigated from navbar
+const navbarLinks = document.querySelectorAll('.navbar a');
+navbarLinks.forEach(link => {
+  link.addEventListener('click', function(e) {
+    const href = this.getAttribute('href');
+    if (href.startsWith('#')) {
+      const section = document.querySelector(href);
+      if (section) {
+        e.preventDefault();
+        section.scrollIntoView({ behavior: 'smooth' });
+        section.classList.add('section-highlight');
+        setTimeout(() => section.classList.remove('section-highlight'), 1200);
+      }
+      // Special case for Contact (footer)
+      if (this.id === 'contact-nav') {
+        const connectBtn = document.getElementById('connect-btn');
+        if (connectBtn) {
+          connectBtn.classList.add('connect-highlight');
+          setTimeout(() => connectBtn.classList.remove('connect-highlight'), 1200);
+        }
+      }
+    }
+  });
+});
+</script>
+</body>
+</html>
